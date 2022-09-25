@@ -5,3 +5,4 @@ odin-recipes
 Build a basic recipe website.
 
 ## Project Scope
+In this project, I have learned how to do basic HTML, as well as git commits into my own public GitHub repository.
