@@ -1,4 +1,7 @@
 # The Odin Project - Odin Recipes 
+<strong>Project Link: </strong> 
+<a href="https://bougieblub.github.io/odin-recipes/">Odin Recipes</a></li>
+
 odin-recipes include the following recipes:
 - Vegan Dark Chocolate Truffles
 - Oatmeal Chocolate Chip Cookies
