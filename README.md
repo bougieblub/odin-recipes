@@ -1,5 +1,7 @@
 # The Odin Project - Odin Recipes 
-odin-recipes
+odin-recipes include the following recipes:
+- Vegan Dark Chocolate Truffles
+- Oatmeal Chocolate Chip Cookies
 
 ## Project Objective
 Build a basic recipe website.
