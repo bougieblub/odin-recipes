@@ -2,6 +2,7 @@
 odin-recipes include the following recipes:
 - Vegan Dark Chocolate Truffles
 - Oatmeal Chocolate Chip Cookies
+- Easy Fudgy Brownies
 
 ## Project Objective
 Build a basic recipe website.
