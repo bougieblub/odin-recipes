@@ -1,6 +1,45 @@
-h1 {
-    font-family: sans-serif;
-    font-weight: 100;
-    font-size: 40px;
-    text-align: center;
+* {
+    margin: 0px;
+    padding: 0px; 
 }
+
+/* Heading */
+
+.heading {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-size: 60px;
+    letter-spacing: 4rem; /* Dictates how much spacing is in between each letter */
+    text-align: center;
+    position: relative;
+    height: 200px;
+    line-height: 200px; /* Vertically centers */
+    color: white;
+    background-color: #557a95;
+}
+
+.nav-tabs {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-align: right;
+    color: white;
+    background-color: #7395AE;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+.author {
+    font-size:20px;
+}
+
+/* Main */
+
+.recipe-list {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+    padding: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
