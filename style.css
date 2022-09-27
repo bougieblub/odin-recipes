@@ -8,8 +8,8 @@
 .heading {
     font-family: 'Courier New', Courier, monospace;
     font-weight: normal;
-    font-size: 60px;
-    letter-spacing: 4rem; /* Dictates how much spacing is in between each letter */
+    font-size: 5vw; /* Use vw = view port, that adjusts to web page */
+    letter-spacing: 4vw; /* Dictates how much spacing is in between each letter */
     text-align: center;
     position: relative;
     height: 200px;
@@ -20,7 +20,7 @@
 
 .nav-tabs {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
+    font-size: 2.5vw;
     text-align: right;
     color: white;
     background-color: #7395AE;
@@ -28,18 +28,48 @@
     padding-top: 20px;
     padding-right: 30px;
 }
+
+/* Same line as nav-tabs */
 .author {
-    font-size:20px;
+    font-size: 1.7vw;
+}
+
+.recipe-title {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-size: 30px; /* Use vw = view port, that adjusts to web page */
+    letter-spacing: 2px; /* Dictates how much spacing is in between each letter */
+    text-align: center;
+    position: relative;
+    height: 100px;
+    line-height: 100px; /* Vertically centers */
+    color: white;
+    background-color: #557a95;
 }
 
 /* Main */
 
-.recipe-list {
-    text-align: center;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 15px;
-    padding: 5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+/* Descendant Combinator; img element nested in cookie-monster class*/
+.cookie-monster img {
+    width: 100%;
 }
 
+.recipe-container,
+.pic {
+    display: flex;
+    justify-content: center;
+}
+
+/* Need to split up the width into three different containers */
+.recipe-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.recipe-container span {
+    padding: 30px;
+    background-color: rgb(170, 202, 229);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+}
