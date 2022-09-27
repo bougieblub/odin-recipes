@@ -47,6 +47,18 @@
     background-color: #557a95;
 }
 
+.subtitle {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-size: 20px; /* Use vw = view port, that adjusts to web page */
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 50px;
+    line-height: 50px; /* Vertically centers */
+    color: white;
+    background-color: #557a95;
+}
 /* Main */
 
 /* Descendant Combinator; img element nested in cookie-monster class*/
@@ -72,4 +84,22 @@
     background-color: rgb(170, 202, 229);
     font-family:'Courier New', Courier, monospace;
     font-size: 15px;
+}
+
+
+.ingredient,
+.instruction {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.ingredient {    
+    text-align: left;
+    margin-left: 5vw;
+}
+
+.instruction {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-align: left;
 }
